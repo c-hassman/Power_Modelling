@@ -1,0 +1,66 @@
+##############################################
+######## MINPOWER Notes ######################
+##############################################
+
+
+Jan 3 2021
+Solver: using GLPK which has a convenient FEDORA installer. 
+Have tested that it is in the PATH enviroment by accessing it from terminal
+
+Spreadsheets:
+Minpower solves problems that are defined in spreadsheets. The most basic ED problem only has two files: generators.csv and loads.csv. If you are solving an UC then you need to define the initial conditions for your generation in initial.csv. Scheduled or predicted energy amounts (e.g. predicted wind farm output or predicted load demand) over a series of times can be specified in a file defined by the schedule file name column of the component. If you are solving an OPF, then you also need to define your transmission lines in lines.csv.
+
+From command line, simply but the nameof your folder which contains your spreadsheets
+
+Development is simple:
+
+        Get on github and fork minpower
+        Clone Minpower from GitHub: git clone http://github.com/<yourname>/minpower
+        install it locally: pip install -e minpower
+        Make it better
+        Test it out. Minpower uses Nose and Travis for testing. To run all of the tests use nosetests in your local minpower directory.
+        Make a pull request to get your version in
+
+
+#################################
+#### Objectives #################
+#################################
+Objective A: try and get it working with 2.7
+Objective B: take notes on each file and function: What do they do and how, particularly solving
+Objective C: understand packaging and setting dependents
+Objective D: understand testing procedures 
+Final Objective: Update to all new packages and python 3.X
+Post Objective: Tutotrials and continued examples
+
+### Objective A #################
+3/1/2021 (jan 3)
+Attempting to install as described above. The error I am currently getting is that the program cannot build the wheel for 
+pandas and numpy. This is likely causes because of so many old package requirements. What I need to do is to make sure I 
+even have python 2.7 installed, then I need to create a virtual enviroment and install the package versions I need there.
+
+
+
+### Objective B ################
+
+
+
+### Objective C ################
+
+
+
+### Objective D ################
+
+
+
+### Final Objective ############
+3/1/2021
+Will need to change all the package and python dependencies. Also change version number (go up to 5.0.1 I think)
+Need a guide for changes between python 2 and 3... don't think I want to us a 2to3 package, would rather update by hand 
+Should also talk to Adam about deleting anything I find not necessary. Really want to clean it up
+
+### Post Objective ############
+3/1/2021 
+
+
+### Continued Improvement ####
+New/better solvers?

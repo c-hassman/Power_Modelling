@@ -1,0 +1,33 @@
+
+
+Mar 1, 2021
+ This is the first day of putting a lot of effort into figuring this out. On the one hand, it is fantastic that I am able to use what Adam Greenhall has build, on the other, I don't fully understand it. Working on this is bound to make me a better programmer - even if it is outdates (2013), I will learn a lot, and updating it will be very valuable for me. 
+
+My plan is to not get bogged down in the details: understanding will come in time. 
+Step 1: Set up a virtual enviroment, with all of the proper packages, and get it running!
+Step 2: Increase the package reguirements as much as I can: the latest package updates will not be available for python 2.7, but thats okay. Get it to that limit and fix the problems which arise.
+Step 3: Update to python 3. There are programs and scripts which do this for you, but I would prefer to do it by hand. Will by time consuming, but hopefilly informative. 
+Step 4: Final update of packages, fix what comes up. 
+
+13:10
+Could not figure out how config files work/getting it to run as a program. My idea now is to strip it down to the bare minimum and run as python progrm. 
+
+Pyomo: is the library for running opitimization. 
+
+20:02
+Started out by fixing a lot of print statements. 
+
+Have been working on getting the parser to start working. 
+- SafeConfigParser is no longer used, in favor of simply ConfigParser. 
+- Adam originally was passing a list into parser.read, and making changes (I think to make is more robus and dlexible to user preferences), I am just putting in the direct file now, to be changed later 
+
+Issue with a whitespace after the file name when reading in csvs... can't find where file names are specified so stripped out the spaces in the function 
+
+df.ix is depreciated, replacing with df.loc
+
+!!! line 290 get_data - commented out error
+
+!!! line 261 power systems
+
+
+Current issue< for optimization objects, where is schedule>?? Lione 84 in power systems

@@ -1,0 +1,48 @@
+2021-03-01 20:51:45 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 20:52:26 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 20:52:57 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 20:53:20 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 20:54:34 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 20:57:57 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 20:58:37 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
+2021-03-01 21:00:56 WARNING: DEPRECATED: The default domain for Param objects is 'Any'.  However,
+we will be changing that default to 'Reals' in the future.  If you
+really intend the domain of this Param (power_g2) to be 'Any', you can
+suppress this warning by explicitly specifying 'within=Any' to the
+Param constructor.  (deprecated in 5.6.9, will be removed in 6.0)
+(called from /home/colburn/anaconda3/lib/python3.8/site-packages/pyomo/core/base/param.py:78)
