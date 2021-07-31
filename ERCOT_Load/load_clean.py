@@ -117,6 +117,8 @@ def pull_combine(data, path):
     new_data = catch_24(new_data)
     # Ensure Columns are all numeric:
     cols = new_data.columns
+    # Remove All Commas, which was leading to an issue with pd.to_numeric
+    new_data = new_data.replace(",",'', regex = True)
     new_data[cols] = new_data[cols].apply(pd.to_numeric, errors = "coerce")
     # Combine Data
     data = data.append(new_data)
@@ -130,7 +132,6 @@ def main():
         path = "20{}.csv".format(year)
         print("Pulling and Combining {}".format(path))
         data = pull_combine(data, path)
-        print(data.dtypes)
     print("Writing to Pickle")
     data.to_pickle("ERCOT_Load.pkl")
 
